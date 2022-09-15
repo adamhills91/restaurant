@@ -23,9 +23,9 @@ function render() {
   const image2 = document.createElement("img");
   const image3 = document.createElement("img");
   image1.classList.add("featured");
-  image1.src = "../src/images/food1.jpg";
-  image2.src = "../src/images/food2.jpg";
-  image3.src = "../src/images/food3.jpg";
+  image1.src = "./images/food1.jpg";
+  image2.src = "./images/food2.jpg";
+  image3.src = "./images/food3.jpg";
 
   const infoTextDiv = document.createElement("div");
   infoTextDiv.classList.add("info-text");

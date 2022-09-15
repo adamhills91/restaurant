@@ -18,7 +18,7 @@ function render() {
   const menuImages = [];
   for (let i = 0; i < 6; i++) {
     menuImages[i] = document.createElement("img");
-    menuImages[i].src = `../src/images/menu/menu${i + 1}.jpg`;
+    menuImages[i].src = `./images/menu/menu${i + 1}.jpg`;
   }
 
   for (let j = 0; j < menuImages.length; j++) {

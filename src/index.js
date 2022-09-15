@@ -1,4 +1,3 @@
-import "./style.css";
 import { initialLoad } from "./initial-load.js";
 import { renderNav } from "./nav.js";
 import { renderAbout } from "./about.js";
@@ -10,9 +9,7 @@ const content = document.getElementById("content");
 
 function home() {
   content.innerHTML = "";
-  renderNav();
-  renderAbout();
-  renderFooter();
+  initialLoad();
 }
 function menu() {
   content.innerHTML = "";

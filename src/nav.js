@@ -9,7 +9,7 @@ function render() {
   logoDiv.classList.add("logo");
 
   const headerLogo = document.createElement("img");
-  headerLogo.src = "../src/images/logo.png";
+  headerLogo.src = "./images/logo.png";
 
   const headerLogoText = document.createElement("a");
   headerLogoText.textContent = "Ernie's Eatery";
@@ -57,7 +57,7 @@ function render() {
   const banner = document.createElement("div");
   banner.classList.add("banner");
   const bannerLogo = document.createElement("img");
-  bannerLogo.src = "../src/images/logo.png";
+  bannerLogo.src = "./images/logo.png";
   const bannerHeader = document.createElement("h2");
   bannerHeader.textContent = "Delicious Food";
   const bannerSubHeader = document.createElement("h3");
